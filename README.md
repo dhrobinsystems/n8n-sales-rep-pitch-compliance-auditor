@@ -47,6 +47,8 @@ My answer:
 
 ## 2. Architecture
 
+![Workflow Overview](https://raw.githubusercontent.com/dhrobinsystems/n8n-sales-rep-pitch-compliance-auditor/main/workflow-overview.png)
+
 ```mermaid
 flowchart TD
     W[Call Completed Webhook] --> V[Verify & Unwrap Call Event<br/>HMAC-SHA256 · call-type filter]
